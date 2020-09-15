@@ -19,9 +19,9 @@ namespace Minimaxes
         char min_char;
         char max_char;
         int evaluate(char[]);
-        int minimax(char[], int, bool);
-        int maximizer(char[], int);
-        int minimizer(char[], int);
+        int minimax(char[], int, bool, int, int);
+        int maximizer(char[], int, int, int);
+        int minimizer(char[], int, int, int);
     };
 }; // namespace Minimaxes
 
