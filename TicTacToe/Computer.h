@@ -3,6 +3,7 @@
 
 #include "Board.h"
 #include "Minimax.h"
+#include "Player.h"
 
 using Minimaxes::Minimax;
 
